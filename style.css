@@ -47,7 +47,6 @@ body {
     align-self: center;
     display: flex;
     margin: 100px 0;
-    border: 1px solid white;
 }
 
 .hero-text {
@@ -111,7 +110,6 @@ button {
 }
 
 .card {
-    border: 1px solid black;
     width: 168px;
 }
 
@@ -124,7 +122,32 @@ button {
 }
 
 .card-text {
+    padding: 8px 0;
+    text-align: center;
     font-size: 18px;
     color: #6e7277;
 }
 
+.section-3 {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 24px 72px 0 100px;
+    border: 1px solid black;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: right;
+    padding: 8px 100px;
+    border: #1F2937 1px solid;
+}
