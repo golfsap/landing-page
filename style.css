@@ -133,6 +133,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 100px;
+    align-items: center;
 }
 
 .quote-text {
@@ -148,12 +149,18 @@ button {
     font-weight: 500;
     text-align: right;
     padding: 8px 100px;
+    align-self: flex-end;
+}
+
+.quote-text, .quote-author, .call-container {
+    max-width: 1000px;
 }
 
 .section-4 {
     background: white;
     display: flex;
     padding: 100px;
+    justify-content: center;
 }
 
 .call-container {
