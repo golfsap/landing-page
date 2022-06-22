@@ -152,7 +152,7 @@ button {
     align-self: flex-end;
 }
 
-.quote-text, .quote-author, .call-container {
+.quote-text, .quote-author, .call-container, .hero-container {
     max-width: 1000px;
 }
 
